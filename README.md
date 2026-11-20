@@ -7,16 +7,16 @@
 COM/3461/26 - Amani Kibet  
 Joshua Kipngetich
 
-## Work done
-- Parts 0, 2, and 4: Amani Kibet
-- Parts 1 and 3: Joshua Kipngetich
-
 ## Our choices
+
 - Main colours: cyan `#087e8b` and dark teal `#07545e`, with navy text.
 - Added projects: Campus Events Page (`campus-life`) and Study Planner (`productivity`).
 - Added two extra tasks: E1, a fourth FAQ page with `<details>` and `<summary>`; E3, project search with category filters.
 
-## Reflection
+
+## Work done
+- Parts 0, 2, and 4: Amani Kibet
+- Parts 1 and 3: Joshua Kipngetich
 
 1. A button works with the keyboard and is easy for screen readers to understand. A div is not a button. It needs more code to work in the same way.
 2. The `defer` word makes the script wait until the page is ready. Without it, the script may run before the HTML elements are added.
