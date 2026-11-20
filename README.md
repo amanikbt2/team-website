@@ -1,37 +1,26 @@
 # Kibet's Team: CSC 216 Lab 2 Website
 
-**Live site:** Add the GitHub Pages URL after deployment.
+**Live site:** https://amanikbt2.github.io/team-website
 
 ## Team
-| Name | Admission number | GitHub username |
-|------|-----------------|-----------------|
-| Amani Kibet | COM/3461/26 | Add username |
-| Noman Keli | COM/212/26 | Add username |
 
-## Who drove each part
-- Part 0, 2, 4: Fill in who drove these parts.
-- Part 1, 3: Fill in who drove these parts.
+COM/3461/26 - Amani Kibet  
+Joshua Kipngetich
 
-## Personalisation
-- Our colours: Cyan `#087e8b` and deep teal `#07545e`, with navy text.
-- Projects we added: Campus Events Page (`campus-life`) and Study Planner (`productivity`).
-- Extension challenge(s) completed: E1, a fourth FAQ page using native `<details>` and `<summary>`; E3, project search combined with the active category filter.
+## Work done
+- Parts 0, 2, and 4: Amani Kibet
+- Parts 1 and 3: Joshua Kipngetich
+
+## Our choices
+- Main colours: cyan `#087e8b` and dark teal `#07545e`, with navy text.
+- Added projects: Campus Events Page (`campus-life`) and Study Planner (`productivity`).
+- Added two extra tasks: E1, a fourth FAQ page with `<details>` and `<summary>`; E3, project search with category filters.
 
 ## Reflection
-Write these in your own words after discussing them together.
 
-1. A button works with a keyboard by default and is announced as a button by screen readers. A clickable div needs extra keyboard behavior and accessibility details, which can make it harder for keyboard and screen-reader users.
-2. Without `defer`, a script in the head can run before the browser has built the page elements. A selector may then find nothing, so the JavaScript interaction can fail.
-3. `innerHTML` treats text as markup. If visitor supplied text were inserted with it, someone could add unwanted HTML or script; `textContent` displays the text safely.
-4. Browser checks can be bypassed, so a server must validate submitted data again before using or storing it. Server validation protects the application even when a visitor changes or skips the page's JavaScript.
-5. Browser storage is separated by origin, including scheme, host, and port. A `file://` page and a page on a local HTTP server have different origins, so they do not share the same saved theme.
-6. The header navigation and footer are repeated across pages. If a link or design changes, every copy needs updating; a shared template system could avoid that duplication, though this lab uses plain HTML pages.
-
-## Before submission
-Add both real passport-size photos in an `images/` folder and use them in the profile cards with meaningful alt text, width, and height attributes. Add both GitHub usernames, record who drove each lab part, and discuss and rewrite the reflection answers in your own words. Run the HTML validator, keyboard, mobile, and Lighthouse checks from the lab brief before submitting.
-
-## Open locally
-Open `index.html` in a browser, or serve this folder with a local web server. The site uses plain HTML, CSS, and JavaScript without a framework.
-
-## Publish with GitHub Pages
-Create a GitHub repository, add these files, and push them to the `main` branch. In repository **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. Add the resulting live URL above.
+1. A button works with the keyboard and is easy for screen readers to understand. A div is not a button. It needs more code to work in the same way.
+2. The `defer` word makes the script wait until the page is ready. Without it, the script may run before the HTML elements are added.
+3. `innerHTML` can read text as HTML. This can be unsafe if the text comes from a visitor. `textContent` shows text safely.
+4. People can change or skip browser checks. The server should check the form again before saving or using the information.
+5. The browser saves themes for each website address. A `file://` page and a local server page do not share saved themes.
+6. The header and footer are copied on every page. If we change a link, we must change it in every page. A shared template could help, but this lab uses plain HTML pages.
