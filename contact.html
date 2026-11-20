@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Kibet's Team about student focused web projects."
+    />
+    <title>Contact | Kibet's Team</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Kibet's Team<span>.</span></a
+        ><button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          Dark mode
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h1>Have an idea? Tell us.</h1>
+          <p class="lead">
+            We’d love to hear what would make student life a little easier.
+          </p>
+        </div>
+      </section>
+      <section class="container section contact-layout">
+        <div>
+          <p class="eyebrow">SEND A NOTE</p>
+          <h2>Start a conversation.</h2>
+          <p>
+            Share a thought, ask a question, or suggest a project for campus.
+          </p>
+        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-field">
+            <label for="name">Full name</label
+            ><input
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+              aria-describedby="name-error"
+            /><small class="error" id="name-error"></small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              aria-describedby="email-error"
+            /><small class="error" id="email-error"></small>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label
+            ><textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              aria-describedby="message-error"
+            ></textarea
+            ><small class="error" id="message-error"></small>
+          </div>
+          <button class="button" type="submit">
+            Send message <span aria-hidden="true">↗</span>
+          </button>
+          <p
+            id="form-success"
+            class="success-message"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2026</span> Kibet's Team</p>
+        <a href="projects.html"
+          >See our projects <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </footer>
+  </body>
+</html>

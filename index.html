@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kibet's Team builds useful web projects for campus life."
+    />
+    <title>Home | Kibet's Team</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html">Kibet's Team<span>.</span></a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Main">
+          <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" type="button" aria-pressed="false">
+          Dark mode
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <p class="eyebrow">CSC 216 · WEB TECHNOLOGIES</p>
+          <h1>We make campus life easier to explore.</h1>
+          <p class="lead">
+            We’re building simple web projects to help students find events,
+            plan their work, and stay connected.
+          </p>
+          <a class="button" href="projects.html"
+            >Explore our projects <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+      <section class="container section" aria-labelledby="team-heading">
+        <div class="section-heading">
+          <p class="eyebrow">THE PEOPLE BEHIND IT</p>
+          <h2 id="team-heading">Meet the team</h2>
+        </div>
+        <div class="team-grid">
+          <article class="card profile-card">
+            <div class="avatar" aria-hidden="true">AK</div>
+            <p class="role">JavaScript and testing</p>
+            <h3>Amani Kibet</h3>
+            <p>
+              Enjoys making pages interactive and checking that they work well.
+            </p>
+          </article>
+          <article class="card profile-card">
+            <div class="avatar avatar-alt" aria-hidden="true">JK</div>
+            <p class="role">HTML and design</p>
+            <h3>Joshua Kipngetich</h3>
+            <p>
+              Enjoys shaping clear page layouts and making designs easy to use.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="container section learning"
+        aria-labelledby="learning-heading"
+      >
+        <div>
+          <p class="eyebrow">LEARNING BY BUILDING</p>
+          <h2 id="learning-heading">Small ideas, useful tools.</h2>
+        </div>
+        <ul class="skill-list">
+          <li>
+            <strong>HTML</strong
+            ><span>Meaningful structure for every page.</span>
+          </li>
+          <li>
+            <strong>CSS</strong
+            ><span>Layouts that feel good on every screen.</span>
+          </li>
+          <li>
+            <strong>JavaScript</strong
+            ><span>Interactions that respond to people.</span>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year">2026</span> Kibet's Team</p>
+        <a href="contact.html">Say hello <span aria-hidden="true">↗</span></a>
+      </div>
+    </footer>
+  </body>
+</html>
